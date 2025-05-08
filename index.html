@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="stillos.css">
+    <link rel="icon" href="img/flowers.png" type="image/x-icon">
+    <title>Flowers</title>
+</head>
+<body>
+    <div class="nieve-contenedor"></div>
+    <div class="container">
+      <h1>Feliz Día Mamá</h1>
+      <a href="flowers.html" class="botones">CLICK AQUÍ</a>
+    </div>
+  
+    <script>
+      const cantidad = 300; // Número de copos
+      const contenedor = document.querySelector('.nieve-contenedor');
+  
+      for (let i = 0; i < cantidad; i++) {
+        const snow = document.createElement('div');
+        snow.classList.add('snow');
+        snow.style.left = Math.random() * 100 + 'vw';
+        const size = Math.random() * 6 + 2;
+        snow.style.width = size + 'px';
+        snow.style.height = size + 'px';
+        snow.style.opacity = Math.random();
+        snow.style.animationDuration = 5 + Math.random() * 7 + 's';
+        snow.style.animationDelay = Math.random() * 10 + 's';
+        contenedor.appendChild(snow);
+      }
+    </script>
+  </body>
+  
+<body>
+<div class="snow"></div>
+<div class="snow"></div>
+<div class="snow"></div>
+<div class="snow"></div>
+<div class="snow"></div>
+
+
+
+
+</body>
+
+</html>

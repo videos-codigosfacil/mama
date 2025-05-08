@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": ".."
+		},
+		{
+			"path": "../../floresamarillasycorazones-main"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "flores-amarillas-tres-main"
+	}
+}
